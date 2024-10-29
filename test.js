@@ -9,11 +9,7 @@
 
 const hola = "Hola";
 
-// Puedes ver a la derecha el resultado del compilador
-// de TypeScript: esto es JavaScript puro, que puede ejecutarse
-// en navegadores, servidores o en cualquier lugar realmente.
-
-const mundo = "Mundo";
+const algo= "tests";
 
 // Puedes ver como hace pequeños cambios al código, al convertir
 // "const" a "var". Esta es una de las muchas cosas que TypeScript
