@@ -12,7 +12,7 @@ const hola = "Hola";
 // Puedes ver a la derecha el resultado del compilador
 // de TypeScript: esto es JavaScript puro, que puede ejecutarse
 // en navegadores, servidores o en cualquier lugar realmente.
-
+const  tierra = "tierra";
 const mundo = "Mundo";
 
 // Puedes ver como hace pequeños cambios al código, al convertir
