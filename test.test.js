@@ -1,5 +1,5 @@
-describe("Pruebas para generarCadenasAleatorias", () => {
-  test("debe generar la cantidad correcta de cadenas", () => {
+describe("test", () => {
+  test("test de pruebas", () => {
    const a = "prueba";
     expect(a.length).toBe(6);
   });
