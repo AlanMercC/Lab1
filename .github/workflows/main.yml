@@ -1,0 +1,21 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Configurar Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # Especifica la versión de Node.js
+    - name: Instalar dependencias
+      run: npm install
+    - name: Ejecutar pruebas
+      run: npm test
+    - name: Ejecutar ESLint
+      run: npx eslint .
