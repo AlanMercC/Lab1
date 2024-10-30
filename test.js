@@ -18,6 +18,7 @@ const  tierra = "tierra";
 // ejecute JavaScript.
 
 console.log(hola + " " + tierra);
+console.log(hola + " " + hola);
 
 // Ahora que tienes una idea de como funciona el playground,
 // veamos como TypeScript hace que sea más divertido trabajar
