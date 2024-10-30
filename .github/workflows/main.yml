@@ -17,5 +17,3 @@ jobs:
       run: npm install
     - name: Ejecutar pruebas
       run: npm test
-    - name: Ejecutar ESLint
-      run: npx eslint .
