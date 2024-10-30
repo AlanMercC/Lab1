@@ -1,0 +1,14 @@
+{
+    "name": "gitlabtest",
+    "version": "1.0.0",
+    "description": "Una breve descripción de tu proyecto, incluyendo su propósito y lo que lo hace único.",
+    "main": "funcion.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^29.7.0"
+    }
+  }
